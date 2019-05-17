@@ -1,10 +1,10 @@
-name 'teams'
+name 'teams_msi'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures teams'
-long_description 'Installs/Configures teams'
-version '0.1.0'
+long_description 'Installs/Configures teams with an MSI'
+version '0.1.1'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 # The `issues_url` points to the location where issues for this cookbook are
